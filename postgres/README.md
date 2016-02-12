@@ -33,11 +33,11 @@ CREATE TABLE orders (
   id SERIAL PRIMARY KEY,
   customer_id INT,
   quantity NUMBER,
-  quantity_unit_id int REFERENCES quantity_units (id) ,
-  extension_xml xml
+  quantity_unit_id int REFERENCES quantity_units (id),
+  extension xml
 );
 
-CREATE INDEX customer_id ON orders (customer_id)
+CREATE INDEX customer_id ON orders (customer_id);
 
 ```
 	
