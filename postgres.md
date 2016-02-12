@@ -15,7 +15,7 @@ insert the data more handily
 interacting with shell
 
 * ``` \! ```
-* ``` \! ```
+* ``` \cd ```
 
 ##  Building semi-structured database backed application
 
@@ -40,4 +40,3 @@ CREATE TABLE orders (
 CREATE INDEX customer_id ON orders (customer_id);
 
 ```
-	
